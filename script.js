@@ -21,7 +21,8 @@ fetch('./data.json')
     document.getElementById('average-score').textContent = avg;
     document.getElementById('rating').textContent = 'Great';
     document.getElementById('description').textContent =
-      'You scored higher than 65% of'+
-      ' the people who have taken' + 'these tests.';
+      'You scored higher than 65% of '+
+      ' the people who have taken' + 
+      ' these tests.';
   })
   .catch(error => console.error('Error loading data:', error));
